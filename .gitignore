@@ -2,3 +2,4 @@ node_modules
 lib
 /.merlin
 /src/index.bs.js
+.bsb.lock
