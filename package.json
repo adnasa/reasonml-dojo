@@ -1,0 +1,15 @@
+{
+  "name": "europe-wide-dojo",
+  "scripts": {
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "start": "npx serve",
+    "clean": "bsb -clean-world"
+  },
+  "dependencies": {
+    "bs-platform": "^3.1.4",
+    "react": "^16.4.0",
+    "react-simple-maps": "^0.12.1",
+    "reason-react": "^0.4.1"
+  }
+}
