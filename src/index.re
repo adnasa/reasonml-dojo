@@ -12,7 +12,8 @@ ReactDOMRe.renderToElementWithId(
     projectionConfig={scale: 205, rotation: [|(-11), 0, 0|]}
     width=980
     height=551
-    style=(ReactDOMRe.Style.make(~width="100%", ~height="auto", ()))
-  />,
+    style=(ReactDOMRe.Style.make(~width="100%", ~height="auto", ()))>
+    <ZoomableGroup center=[|0, 20|] disablePanning=false />
+  </ComposableMap>,
   "main",
 );
